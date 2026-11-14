@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Larosse, student systeem- en netwerkbeheer</title>
+    <meta name="description" content="Portfolio van Rafael Larosse, student systeem- en netwerkbeheer aan AP Hogeschool. Bekijk mijn projecten en neem contact op.">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+
+<body class="p-4">
+
+    <header class="relative overflow-hidden border-4 border-[#0B6E4F] mb-4 min-h-24 md:min-h-32">
+        <img src="./images/sfeerblad.png" alt="" class="absolute inset-0 w-full h-full object-cover object-center">
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <div class="relative flex flex-wrap items-center justify-between gap-3 px-4 py-3 md:px-8 md:py-4">
+            <a href="index.html"><img src="./images/logo.png" alt="Naar de startpagina" class="h-12 md:h-16 w-auto"></a>
+
+
+            <input type="checkbox" id="menu-knop" class="peer sr-only">
+
+            <label for="menu-knop" class="cursor-pointer border border-gray-200 px-3 py-2 text-white hover:border-[#D4713A] hover:text-[#D4713A] peer-focus-visible:outline-3 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-[#D4713A] md:hidden">Menu</label>
+
+            <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+                <ul class="flex flex-col gap-1 text-lg md:flex-row md:gap-x-10 md:text-2xl">
+    
+                    <li><a href="index.html" aria-current="page" class="block py-1 underline text-white hover:text-[#D4713A]">Home</a></li>
+                    <li><a href="portfolio.html" class="block py-1 text-gray-200 hover:text-[#D4713A]">Portfolio</a></li>
+                    <li><a href="contact.html" class="block py-1 text-white hover:text-[#D4713A]">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 gap-4 mb-4 lg:grid-cols-3">
+
+        <main class="border border-[#0B6E4F] p-4 lg:col-span-2">
+            <h1 class="text-3xl font-bold mb-2 text-[#0B6E4F]">Hallo, ik ben Rafael</h1>
+
+            <a href="portfolio.html" class="inline-block border border-[#0B6E4F] bg-[#0B6E4F] text-white px-2 py-1 mb-4 hover:bg-[#D4713A] hover:border-[#D4713A]">Bekijk mijn werk</a>
+            <img src="./images/professionele-foto.jpg" alt="Foto van Rafael" class="w-48 h-48 rounded-full object-cover border-4 border-[#C9B896] shadow-lg mx-auto mb-4">
+
+            <h2 class="text-xl font-bold mb-2 text-[#0B6E4F]">Over mij</h2>
+            <p class="mb-4">
+                Hallo, ik ben Rafael, de maker van deze website. Ik volg
+                Systeem- & Netwerkbeheer. Ik heb hiervoor programmeren gedaan en zou graag mijn
+                passie laten tonen in deze richting.
+            </p>
+
+            <h2 class="text-xl font-bold mb-2 text-[#0B6E4F]">Uitgelichte projecten</h2>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <article class="border border-[#C9B896] p-2">
+                        <a href="./project-webwiz.html">
+                            <img src="./images/webwiz.png" alt="Webwiz project" class="w-full h-32 object-contain mb-2">
+                        </a>
+                        <h3 class="font-bold text-[#0B6E4F]">Webwiz</h3>
+                        <p>Server structuur maken voor bedrijf</p>
+                    </article>
+
+                    <article class="border border-[#C9B896] p-2">
+                        <a href="./project-wizardshop.html">
+                            <img src="./images/logo-wizardshop.png" alt="Wizard shop project" class="w-full h-32 object-contain mb-2">
+                        </a>
+                        <h3 class="font-bold">WizardShop</h3>
+                        <p>Project Wizard-shop</p>
+                    </article>
+
+                    <article class="border border-[#C9B896] p-2">
+                        <a href="./project-csharp-shop.html">
+                            <img src="./images/csharp-logo.png" alt="project C-Sharp Shop" class="w-full h-32 object-contain mb-2">
+                        </a>
+                        <h3 class="font-bold">C# shop</h3>
+                        <p>Winkel in C#</p>
+                    </article>
+            </div>
+
+        </main>
+
+        <aside class="border border-[#0B6E4F] bg-[#C9B896]/30 p-4">
+
+            <h2 class="text-xl font-bold mb-2 text-[#0B6E4F]">Vaardigheden</h2>
+            <ul class="mb-4">
+                <li>HTML</li>
+                <li>CSS/CSS Tailwind</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+            </ul>
+
+            <h2 class="text-xl font-bold mb-2 text-[#0B6E4F]">Snelle links</h2>
+            <ul>
+                <li><a href="portfolio.html" class="underline text-[#0B6E4F] hover:text-[#D4713A]">Portfolio</a></li>
+                <li><a href="contact.html" class="underline text-[#0B6E4F] hover:text-[#D4713A]">Contact</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <footer class="border border-[#0B6E4F] bg-[#C9B896]/30 p-4">
+        <p class="mb-2">&copy; 2026 Rafael Larosse</p>
+    </footer>
+</body>
+</html>
